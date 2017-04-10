@@ -1,1 +1,12 @@
-5 acgt cgtaatcg[gt][ac]agt[at]a[at]agt[acgt]aag ?
+k alphabet degenerate_text correct_answer
+5 acgt cgtaatcg[gt][ac]agt[at]a[at]agt[acgt]aag None
+6 acgt c[ct][cg]a[at]a[acgt][gt]a[a] [0, 2, 8]
+1 acgt cacgaagaagcac [0]
+5 ab [ab][ab]a[ab][ab][ab] [0]
+5 ab [ab][a]a[b]aa [0, 4]
+1 x xxxxxxxxxxxxxxxxx [0]
+1 xa xxxxxaxxxxxxxxaxx [0, 3]
+0 ba baababaabaababbabbabababaababbaaaabababababbaabababbabaababababbbbbbbabaaababab [0, 4, 10, 21, 29, 30, 32, 34, 43, 47, 55, 56, 63, 69, 72, 74]
+5 ba baababaabaaba[ab]babbabababaaba[ab]baaaababababa[ab]baab[ab]babbabaababababbb[ab]bbbabaaababab None
+12 abcdefg [bcdfg][acefg][cd][aefg][cdf][abfg][abefg][abdeg][abcdef][abcdefg][acdefg][abefg][acdfg][ab] [0, 10]
+10 abc [ac]abc[ab][bc]cab[ac][ac]b[bc]cc[ab]abcba[ab]ba [0, 2, 3, 14, 19, 23]
